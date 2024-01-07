@@ -12,7 +12,7 @@ export const Container = styled(TouchableOpacity) <FilterStyleProps>`
 
     border-radius: 4px;
     margin-right: 12px;
-    margin-top: 12px;
+    /* margin-top: 12px; */
 
     height: 38px;
     width: 70px;
