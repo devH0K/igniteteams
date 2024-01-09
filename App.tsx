@@ -1,4 +1,4 @@
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components/native";
 import theme from '@theme/index'
 import { Groups } from "@screens/Groups";
 import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
@@ -19,8 +19,8 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      {/* { fontsLoaded ? <Groups/> :  <Loading/> } */}
-      { fontsLoaded ? <Players/> :  <Loading/> }
+      { fontsLoaded ? <Groups/> :  <Loading/> }
+      {/* { fontsLoaded ? <Players/> :  <Loading/> } */}
     </ThemeProvider>
   );
 }

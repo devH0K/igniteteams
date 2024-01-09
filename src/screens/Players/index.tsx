@@ -62,7 +62,7 @@ export function Players(){
                         message="Não foram cadastradas pessoas neste time!"
                     />
                 )}
-                showsHorizontalScrollIndicator={false}
+                showsVerticalScrollIndicator={false}
                 contentContainerStyle={[
                     {paddingBottom: 100},
                     players.length === 0 && {flex: 1}

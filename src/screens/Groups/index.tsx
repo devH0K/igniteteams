@@ -36,6 +36,11 @@ export function Groups() {
             message="Que tal cadastrar a primeira turma?"
           />
         )}
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={[
+          {paddingBottom: 100},
+          groups.length === 0 && {flex: 1}
+        ]}
       />
 
       <Button
